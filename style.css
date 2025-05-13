@@ -35,3 +35,20 @@ body {
     color: white;
     background-color: rgb(184, 255, 231);
 }
+
+.messagem {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    display: none;
+}
+
+.message .success {
+    background-color: green;
+    color: rgb(1, 58, 1);
+}
+
+.message .error {
+    background-color: red;
+    color: rgb(111, 1, 1);
+}
