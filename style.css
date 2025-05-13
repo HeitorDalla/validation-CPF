@@ -5,3 +5,33 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: aquamarine;
+    font: arial, sans-serif;
+}
+
+#form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.cpfForm input {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.cpfForm button {
+    padding: 10px;
+    width: 200px;
+    color: white;
+    background-color: rgb(184, 255, 231);
+}
