@@ -1,5 +1,5 @@
 # Validador de CPF
-Este é um simulado de um semáforo desenvolido com HTML, CSS e JavaScript. Simula os semáforos da vida, alternando do estavo verde para o amarelo, do amarelo para o vermelho, e do vermelho para o verde.
+Este é um projeto de validação de CPF desenvolvido com HTML, CSS e JavaScript. O sistema permite que o usuário digite um CPF, e o validador verifica se ele é válido de acordo com os critérios oficiais da Receita Federal.
 
 ## Tecnologias utilizadas
 Essse projeto foi desenvolvido seguindo as seguintes tecnologias:
