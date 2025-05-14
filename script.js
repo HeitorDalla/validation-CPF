@@ -45,3 +45,17 @@ function validarCPF (cpf) {
     return true;
 }
 
+document.querySelector("#cpfForm").addEventListener("submit", (event) => {
+    event.preventDefault();
+
+    const cpfInput = document.querySelector("#cpf").value;
+    const containerMessage = document.querySelector("#message");
+
+    if (validarCPF(cpfInput)) {
+        containerMessage.textContent = `CPF Válido!`;
+        containerMessage.className = 'message success';
+    } else {
+        containerMessage.textContent = `CPF Inválido!`;
+        containerMessage.className = 'message error ';
+    }
+});
